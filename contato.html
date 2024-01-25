@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edgie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>contato l html css e javaScript</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header style="background-image: url(img/background-contacto.jpg);">
+        <!-- container -->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu">
+                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Contato</h1>
+                    <p>Entre em contato com nosso time, eles irão retornar em tempo recorde, para tirar o seu projeto do papel.</p>
+                    
+                </div>
+            </section>
+        </div>
+    </header>
+    <section class="contato">
+        <div class="container">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61528.48265938156!2d-47.64443942608867!3d-15.455889215841482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a6ff8c53ef657%3A0x6bacb765fe50147d!2sPlanaltina%2C%20GO!5e0!3m2!1spt-PT!2sbr!4v1706186877903!5m2!1spt-PT!2sbr" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contato-info">
+                <div class="left-side">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p>Rua Qa 07-Planaltina de goiás</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p>r3msolucoesdigitais@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>(61) 98151-5064</p>
+                    </div>
+                    
+                </div>
+                
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            
+            <p>Desenvolvido por Priscila</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
